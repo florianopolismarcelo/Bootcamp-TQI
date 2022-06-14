@@ -1,0 +1,156 @@
+10/06/2022
+
+
+- Para comentar aquivo voce seleciona uma ou mais linhas e de um Ctrl e //
+- Pesquisar sobre console log no javascript
+
+
+11/06/2022
+
+- Hoje será inserido o javascript numa pagina Html porém primeiramente para verificar o funcionamento vamos colocar
+a cor de todos os textos como cinza então para isso você vai no arquivo styles.css e coloca o comando abaixo:
+
+body {
+    color: grey;
+}
+
+------------------------------------------------------------------------------------------------------------------
+- Como você ja sabe dentro do arquivo Html com o botão direito do mouse você seleciona Html5 para a criação 
+da estrutura exemplo da estrutura abaixo:
+------------------------------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------
+Na estrutura vamos direcionar o caminho dos arquivos styles.css e scripts.js veja abaixo:
+------------------------------------------------------------------------------------------------------------------
+
+<link rel="stylesheet" href="assets/CSS/styles.css"/>
+<script src="assets/js/scripts.js"></script>
+
+A estrutura ficará assim:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/CSS/styles.css"/>
+    <script src="assets/js/scripts.js"></script>
+    <title>teste</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------
+
+No body adicionamos o olá, mundo para verificação no navegador e uma observação ele tem que estar em tom de cinza.
+
+DOM(Document objetct model) que basicamente são os elementos que temos na página a estrutura os elementos dentro da 
+janela(página) pesquisar sobre DOM arvore de dependencias, na DIO tem um curso que fala sobre o assunto que é 
+extremamente importante.
+------------------------------------------------------------------------------------------------------------------
+Utilizando a estrutura anterior com alterações vamos criar um contador veja a nova estrutura abaixo:
+------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/CSS/styles.css"/>
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <h2>Contador</h2>
+    <p>Este é o meu primeiro projeto Javascript.</p>
+    <div id="counter">
+        <button name="sutrair" onclick="decrement()">-</button>
+        <span id="currentNumber">0</span>
+        <button name="adicionar" onclick="increment()">+</button>
+    </div>  
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------
+- O arquivo scripts.js fica:
+------------------------------------------------------------------------------------------------------------------
+var currentNumberWapper = document.getElementById ("currentNumber")
+var currentNumber = 0;
+function increment() {
+    currentNumber = currentNumber + 1;
+    currentNumberWapper.innerHTML = currentNumber;
+}
+function decrement() {
+    currentNumber = currentNumber - 1;
+    currentNumberWapper.innerHTML = currentNumber;
+}
+------------------------------------------------------------------------------------------------------------------------
+- O arquivo styles.css fica:
+------------------------------------------------------------------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(133, 202, 167, 0.737);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+	border: 2px solid lightcoral;
+	background-color: rgb(241, 214, 214);
+	color: lightcoral;
+	font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter{
+display: flex;
+}
+
+#currentNumber {
+
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+
+}
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
