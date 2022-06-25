@@ -1,0 +1,16 @@
+package br.com.dio;
+
+import br.com.dio.model.Gato;
+
+public class primeiroPrograma {
+
+	public static void main(String[] args) {
+		@SuppressWarnings("unused")
+		Gato gato = new Gato();
+		
+		/*int a = 20;
+		int b = 25;
+		
+		System.out.println("Hello World = " + (a+b)+ " Concatenando Kkk");*/
+	}
+}
