@@ -20,8 +20,8 @@ public class Main {
         int asrn2$4678_md; //Válida, mas não muito usual.
         //int asrn2$46%78_md; Não pode conter carcter % , @ e outros do tipo
 
-        asrn24678md = 100; // Inicialização da váriavel acima
-        asrn2$4678_md = 10; // Inicialização da váriavel acima
+        asrn24678md = 100; // Inicialização da váriavel acima.
+        asrn2$4678_md = 10; // Inicialização da váriavel acima.
 
         int quantidadeProduto = 50; // Váriavel correta começa com letra minuscula se chama anotação camelo.
         //int QuantidadeProduto; Não segue a boa prática pois começa com maiúscula.
