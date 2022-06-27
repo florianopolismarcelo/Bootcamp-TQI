@@ -13,7 +13,7 @@ public class Main {
         _1a = 20; // Valor inicial da váriavel acima até pode, mas não é boa prática começar com _
          $aq = 7; // Valor inicial da váriaval acima até pode, mas começar com $ não é uma boa prática.
 
-        final int j = 10; // Final significa que o valor será fixo = constante.
+        final int j = 10; // Final significa que o valor será fixo (constante).
         // j = 15; Estava tentando mudar o valor de j não pode pois é uma constante.
         int asrn24678md; // Válida, mas não usual.
         // int asrn246 78md; Nome da variável não pode ter espaço.
