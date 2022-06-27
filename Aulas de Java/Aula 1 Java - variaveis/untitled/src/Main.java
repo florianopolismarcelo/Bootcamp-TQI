@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         int i;
@@ -44,4 +45,3 @@ public class Main {
         System.out.println(QUANTIDADE_OPCOES);
     }
 }
-
