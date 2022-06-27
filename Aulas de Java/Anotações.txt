@@ -1,0 +1,86 @@
+27/06/2022 
+
+-------------------------
+Tipos de váriaves numeral
+-------------------------
+
+byte: tipo numerico inteiro vai de 128 até 127 é declarada assim: byte b = 15;
+
+short: é um pouco maior 32.768 até 32.767 é declarada assim: short s = -15785;
+
+int: bem maior a capacidade de armazenamento é um inteiro de 32-bit -2.147.483.648 até 2.147.483.647 
+é declara assim: int i = 8515785;
+
+long: bem maior a capacidade de armazenamento é um inteiro de 64-bit -9.223.372.036.854.775.808 até 9.223.372.036.854.775.807 é declarada assim: 
+long l = 5938515785L;
+
+float: A capacidade de armazenamento é numero fracionado de 32-bit + ou - 3.40282347E+38F é declarada assim: float f = 3.14...(f)
+
+double: A capacidade de armazenamento é numero fracionado de 64-bit + ou - 1.79769313486231570E+308 é declarada assim: 
+double d = 3.14...(d);
+
+-------------------------
+Tipos de váriaves Textual
+-------------------------
+
+
+char: caracteres de 16-bit declara assim: char c = '\u0084'; ou char c = 'T';
+
+String: um tipo "especial" declara assim: String s = "T";
+
+
+------------------------
+Tipos de váriaves Lógico
+------------------------
+
+boolean: true e false declara assim: boolean = false; ou boolean s = true;
+
+
+
+
+
+Uma coisa importante sobre a utilização do tipo de dado toda váriavel pecisa de uma
+inicialização inicial
+
+
+byte valor inicial é 0;
+short é 0;
+int é 0;
+long é 0L;
+float é 0.0f;
+double é 0.0d;
+char é '\u0000';
+String( e objeto) é null;
+boolean é false;
+
+
+As boas práticas é usar de forma adequada cada tipo de dado para cada informação
+
+
+-------------------
+Tipos de operadores
+-------------------
+
+pós-fixado: exp++ ou exp--  primeiro usa expressão somar ou subtrair forma tardia
+
+pré-fixado: ++exp ou --exp primeiro soma ou subtrai a unidade
+
+aritmético: + , - , * , / e %
+
+atribuição: = , += , -= , *= , /= e %=
+
+
+Exemplos:
+
+int i = ++K; é igual: i = k + 1;
+
+int j = k--; é igual: j=k; k = k-1;
+
+float f = 1.5f + 4.5f;
+
+long I = 10398L 
+
+
+
+
+
