@@ -78,7 +78,43 @@ int j = k--; é igual: j=k; k = k-1;
 
 float f = 1.5f + 4.5f;
 
-long I = 10398L 
+long I = 10398L * 5L;
+
+double d = 45d / 4d;
+
+int K = 15 % 4;
+
+double d = f;
+
+
+-------------------
+Atalhos
+-------------------
+
+
+i += 5 é igual a i = i + 5;
+
+j -= 3 é igual a j = j - 3;
+
+d /= 2.7 é igual a d = d / 2.7d; //double
+
+m *= 4 é igual a m = m * 4;
+
+k %= 2 é igual a k = k % 2;
+
+
+----------------------------
+Conversão(Mesmo que Casting)
+----------------------------
+
+- "É a transformação de uma determinada variável de tipo
+menos específico para um tipo mais específico ou vice-versa."
+
+
+
+
+
+
 
 
 
