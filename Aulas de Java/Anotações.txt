@@ -103,12 +103,15 @@ m *= 4 é igual a m = m * 4;
 k %= 2 é igual a k = k % 2;
 
 
-----------------------------
-Conversão(Mesmo que Casting)
-----------------------------
+---------------------------------------------
+Conversão(Mesmo que Casting) Pesquisar sobre
+---------------------------------------------
 
 - "É a transformação de uma determinada variável de tipo
 menos específico para um tipo mais específico ou vice-versa."
+
+
+
 
 
 
