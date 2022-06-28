@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+
+
         byte b1;
         short s1 = 1000;
         b1 = (byte) s1;// Estamos reduzindo a capacidade para short isso perdará informação.
