@@ -19,7 +19,7 @@ public class Main {
 
         double d1;
         float f1 = 10.5f;
-        d1 = f1; // Aqui não houve perda de informação
+        d1 = f1; // Aqui não houve perda de informação.
 
         float f2;
         float f3;
