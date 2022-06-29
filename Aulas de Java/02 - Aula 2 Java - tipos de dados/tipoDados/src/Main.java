@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         byte b1 = 10; //Correto
         byte b2 = 20; //Correto
 

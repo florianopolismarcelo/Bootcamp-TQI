@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         int i;
         //int i; Já existe em cima não pode repetir.
         int I; // Esse I pode pois é diferente do i.
