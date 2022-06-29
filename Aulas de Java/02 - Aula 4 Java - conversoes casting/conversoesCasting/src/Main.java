@@ -1,7 +1,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
         byte b1;
         short s1 = 1000;
         b1 = (byte) s1;// Estamos reduzindo a capacidade para short isso perdará informação.
@@ -47,6 +46,5 @@ public class Main {
         b1 = (byte) d3;
 
         System.out.println("b1:" + b1);
-
     }
 }
