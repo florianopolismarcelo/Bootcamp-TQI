@@ -56,7 +56,7 @@ boolean é false;
 
 As boas práticas é usar de forma adequada cada tipo de dado para cada informação
 
-
+28/06/2022
 -------------------
 Tipos de operadores
 -------------------
@@ -87,9 +87,9 @@ int K = 15 % 4;
 double d = f;
 
 
--------------------
+--------
 Atalhos
--------------------
+--------
 
 
 i += 5 é igual a i = i + 5;
@@ -109,6 +109,106 @@ Conversão(Mesmo que Casting) Pesquisar sobre
 
 - "É a transformação de uma determinada variável de tipo
 menos específico para um tipo mais específico ou vice-versa."
+
+
+30/06/2022
+--------------------
+Estrutura de Decisão
+--------------------
+
+- Decisão: estrutura que avalia uma condição booleana ou variável para 
+direcionar o fluxo de execução
+
+opções: if(se), switch(escolha) e operador ternário.
+
+
+opção 01 de if:
+
+if (condição) {
+
+}
+
+
+opção 02 de if:
+
+if (condição) {
+
+} else {
+
+}
+
+
+opção 3 de if:
+
+if (condição) {
+
+} else if (condição) {
+
+} else {
+
+}
+
+OBS: Cuidar para não ter muito ifs dentro do outro isso não é uma boa 
+prática 
+
+
+opção para switch:
+
+Switch (variável) {
+
+case 1 :
+break;
+
+case .. :
+break;
+
+default: // é para quando se caso não der as opções acima fazer essa.
+break;
+
+}
+
+
+Switch (olhos) {
+
+case "AZUIS" :
+break;
+
+case "VERDES" :
+break;
+
+case "CASTANHOS" :
+break;
+
+
+default: 
+break;
+
+}
+
+As váriaveis mais comuns para uso do Switch são:
+byte, short, char, int, Enum, String.
+
+OBS: Enum pesquisar por favor.
+
+
+
+
+
+OBS: Operador ternário pesquisar por favor( Professor diz para evitar o máximo
+o operador ternário)
+
+
+
+OBS: Use switch quando tiver uma váriavel e if quando tiver mais de uma 
+variável envolvida na sua decisão.
+
+
+
+OBS: Use o default do Switch para idicar que o valor que você passou está
+errado não use como mais uma opção.
+
+
+
 
 
 
