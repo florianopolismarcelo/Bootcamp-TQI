@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f70a898f-62f6-4dae-b5a0-ae4e95d0ca93" name="Changes" comment="">
+    <list default="true" id="2c184f5c-4ff8-4303-af7c-52f8cfb7f915" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../01 - Aula 1 Java - variaveis/variaveis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01 - Aula 1 Java - variaveis/variaveis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/operadores/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/operadores/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03 - Aula 3 Java - operadores/operadores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03 - Aula 3 Java - operadores/operadores/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03 - Aula 3 Java - operadores/operadores/out/production/operadores/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../03 - Aula 3 Java - operadores/operadores/out/production/operadores/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03 - Aula 3 Java - operadores/operadores/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03 - Aula 3 Java - operadores/operadores/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/operadoresRelacionais/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/operadoresRelacionais/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +21,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2BH08vGNSgXJLFGn8ypqm3qZzTl" />
+  <component name="ProjectId" id="2BH0XLnsnmqmH8OqPLW1EHHPC9q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,7 +36,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="operadores" />
+      <module name="operadoresRelacionais" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -47,11 +50,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f70a898f-62f6-4dae-b5a0-ae4e95d0ca93" name="Changes" comment="" />
-      <created>1656547547200</created>
+      <changelist id="2c184f5c-4ff8-4303-af7c-52f8cfb7f915" name="Changes" comment="" />
+      <created>1656547741616</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656547547200</updated>
+      <updated>1656547741616</updated>
     </task>
     <servers />
   </component>
